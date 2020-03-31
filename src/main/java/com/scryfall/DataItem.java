@@ -20,6 +20,9 @@ public class DataItem{
 	@JsonProperty("set_search_uri")
 	private String setSearchUri;
 
+	@JsonProperty("flavor_text")
+	private String flavorText;
+
 	@JsonProperty("set_name")
 	private String setName;
 
@@ -38,9 +41,6 @@ public class DataItem{
 	@JsonProperty("id")
 	private String id;
 
-	@JsonProperty("toughness")
-	private String toughness;
-
 	@JsonProperty("foil")
 	private boolean foil;
 
@@ -49,6 +49,9 @@ public class DataItem{
 
 	@JsonProperty("scryfall_set_uri")
 	private String scryfallSetUri;
+
+	@JsonProperty("watermark")
+	private String watermark;
 
 	@JsonProperty("type_line")
 	private String typeLine;
@@ -67,6 +70,9 @@ public class DataItem{
 
 	@JsonProperty("border_color")
 	private String borderColor;
+
+	@JsonProperty("mtgo_foil_id")
+	private int mtgoFoilId;
 
 	@JsonProperty("reserved")
 	private boolean reserved;
@@ -110,6 +116,9 @@ public class DataItem{
 	@JsonProperty("artist_ids")
 	private List<String> artistIds;
 
+	@JsonProperty("mtgo_id")
+	private int mtgoId;
+
 	@JsonProperty("rulings_uri")
 	private String rulingsUri;
 
@@ -118,9 +127,6 @@ public class DataItem{
 
 	@JsonProperty("set_uri")
 	private String setUri;
-
-	@JsonProperty("power")
-	private String power;
 
 	@JsonProperty("lang")
 	private String lang;
@@ -210,6 +216,14 @@ public class DataItem{
 		return setSearchUri;
 	}
 
+	public void setFlavorText(String flavorText){
+		this.flavorText = flavorText;
+	}
+
+	public String getFlavorText(){
+		return flavorText;
+	}
+
 	public void setSetName(String setName){
 		this.setName = setName;
 	}
@@ -258,14 +272,6 @@ public class DataItem{
 		return id;
 	}
 
-	public void setToughness(String toughness){
-		this.toughness = toughness;
-	}
-
-	public String getToughness(){
-		return toughness;
-	}
-
 	public void setFoil(boolean foil){
 		this.foil = foil;
 	}
@@ -288,6 +294,14 @@ public class DataItem{
 
 	public String getScryfallSetUri(){
 		return scryfallSetUri;
+	}
+
+	public void setWatermark(String watermark){
+		this.watermark = watermark;
+	}
+
+	public String getWatermark(){
+		return watermark;
 	}
 
 	public void setTypeLine(String typeLine){
@@ -336,6 +350,14 @@ public class DataItem{
 
 	public String getBorderColor(){
 		return borderColor;
+	}
+
+	public void setMtgoFoilId(int mtgoFoilId){
+		this.mtgoFoilId = mtgoFoilId;
+	}
+
+	public int getMtgoFoilId(){
+		return mtgoFoilId;
 	}
 
 	public void setReserved(boolean reserved){
@@ -450,6 +472,14 @@ public class DataItem{
 		return artistIds;
 	}
 
+	public void setMtgoId(int mtgoId){
+		this.mtgoId = mtgoId;
+	}
+
+	public int getMtgoId(){
+		return mtgoId;
+	}
+
 	public void setRulingsUri(String rulingsUri){
 		this.rulingsUri = rulingsUri;
 	}
@@ -472,14 +502,6 @@ public class DataItem{
 
 	public String getSetUri(){
 		return setUri;
-	}
-
-	public void setPower(String power){
-		this.power = power;
-	}
-
-	public String getPower(){
-		return power;
 	}
 
 	public void setLang(String lang){
@@ -619,22 +641,24 @@ public class DataItem{
 			",prints_search_uri = '" + printsSearchUri + '\'' + 
 			",variation = '" + variation + '\'' + 
 			",set_search_uri = '" + setSearchUri + '\'' + 
+			",flavor_text = '" + flavorText + '\'' + 
 			",set_name = '" + setName + '\'' + 
 			",scryfall_uri = '" + scryfallUri + '\'' + 
 			",edhrec_rank = '" + edhrecRank + '\'' + 
 			",mana_cost = '" + manaCost + '\'' + 
 			",games = '" + games + '\'' + 
 			",id = '" + id + '\'' + 
-			",toughness = '" + toughness + '\'' + 
 			",foil = '" + foil + '\'' + 
 			",purchase_uris = '" + purchaseUris + '\'' + 
 			",scryfall_set_uri = '" + scryfallSetUri + '\'' + 
+			",watermark = '" + watermark + '\'' + 
 			",type_line = '" + typeLine + '\'' + 
 			",color_identity = '" + colorIdentity + '\'' + 
 			",set_type = '" + setType + '\'' + 
 			",related_uris = '" + relatedUris + '\'' + 
 			",legalities = '" + legalities + '\'' + 
 			",border_color = '" + borderColor + '\'' + 
+			",mtgo_foil_id = '" + mtgoFoilId + '\'' + 
 			",reserved = '" + reserved + '\'' + 
 			",name = '" + name + '\'' + 
 			",cmc = '" + cmc + '\'' + 
@@ -649,10 +673,10 @@ public class DataItem{
 			",illustration_id = '" + illustrationId + '\'' + 
 			",promo = '" + promo + '\'' + 
 			",artist_ids = '" + artistIds + '\'' + 
+			",mtgo_id = '" + mtgoId + '\'' + 
 			",rulings_uri = '" + rulingsUri + '\'' + 
 			",collector_number = '" + collectorNumber + '\'' + 
 			",set_uri = '" + setUri + '\'' + 
-			",power = '" + power + '\'' + 
 			",lang = '" + lang + '\'' + 
 			",prices = '" + prices + '\'' + 
 			",highres_image = '" + highresImage + '\'' + 

@@ -5,10 +5,10 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 public class Prices{
 
 	@JsonProperty("usd_foil")
-	private Object usdFoil;
+	private String usdFoil;
 
 	@JsonProperty("tix")
-	private Object tix;
+	private String tix;
 
 	@JsonProperty("eur")
 	private String eur;
@@ -16,19 +16,19 @@ public class Prices{
 	@JsonProperty("usd")
 	private String usd;
 
-	public void setUsdFoil(Object usdFoil){
+	public void setUsdFoil(String usdFoil){
 		this.usdFoil = usdFoil;
 	}
 
-	public Object getUsdFoil(){
+	public String getUsdFoil(){
 		return usdFoil;
 	}
 
-	public void setTix(Object tix){
+	public void setTix(String tix){
 		this.tix = tix;
 	}
 
-	public Object getTix(){
+	public String getTix(){
 		return tix;
 	}
 

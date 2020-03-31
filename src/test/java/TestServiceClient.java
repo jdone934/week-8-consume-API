@@ -17,13 +17,13 @@ public class TestServiceClient {
     public void testScryfallJSON() throws Exception {
         Client client = ClientBuilder.newClient();
         WebTarget target =
-                client.target("https://api.scryfall.com/cards/search?q=mizzix");
+                client.target("https://api.scryfall.com/cards/search?q=lightning_bolt");
         String response = target.request(MediaType.APPLICATION_JSON).get(String.class);
         ObjectMapper mapper = new ObjectMapper();
         Response responseList = mapper.readValue(response, Response.class);
         List<DataItem> cardList = responseList.getData();
         DataItem firstCard = cardList.get(0);
-        String expectedName = "Mizzix of the Izmagnus";
+        String expectedName = "Lightning Bolt";
         assertEquals(expectedName, firstCard.getName());
         logger.info(firstCard.toString());
     }

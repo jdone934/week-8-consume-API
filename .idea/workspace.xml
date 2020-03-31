@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b4f69133-3628-4830-8c2f-bd2843bdc93f" name="Default Changelist" comment="" />
+    <list default="true" id="b4f69133-3628-4830-8c2f-bd2843bdc93f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scryfall/DataItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scryfall/DataItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scryfall/Prices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scryfall/Prices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestServiceClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestServiceClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/scryfall/DataItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/scryfall/DataItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/scryfall/Prices.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/scryfall/Prices.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestServiceClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestServiceClient.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +24,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -22,13 +35,18 @@
     </option>
   </component>
   <component name="ProjectId" id="1Zrsx07u6hbWlZa901z1iEzS5mI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -251,12 +269,15 @@
       <workItem from="1585610899379" duration="199000" />
       <workItem from="1585612422964" duration="1811000" />
       <workItem from="1585618131971" duration="2025000" />
-      <workItem from="1585621006148" duration="2100000" />
+      <workItem from="1585621006148" duration="4081000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1161" y="506" width="424" height="384" key="#BuildArtifactsBeforeRunChooser" timestamp="1585612606338">
@@ -271,30 +292,34 @@
       <screen x="67" y="27" width="1853" height="1173" />
     </state>
     <state x="836" y="356" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1173@67.27.1853.1173" timestamp="1585612712764" />
-    <state x="871" y="427" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585619599680">
+    <state x="763" y="225" width="374" height="626" key="#com.intellij.ide.util.MemberChooser" timestamp="1585624401715">
       <screen x="67" y="27" width="1853" height="1173" />
     </state>
-    <state x="871" y="427" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1853.1173@67.27.1853.1173" timestamp="1585619599680" />
+    <state x="763" y="225" width="374" height="626" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1173@67.27.1853.1173" timestamp="1585624401715" />
+    <state x="871" y="427" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585624543030">
+      <screen x="67" y="27" width="1853" height="1173" />
+    </state>
+    <state x="871" y="427" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1853.1173@67.27.1853.1173" timestamp="1585624543030" />
     <state x="776" y="370" width="424" height="484" key="FileChooserDialogImpl" timestamp="1585619426499">
       <screen x="67" y="27" width="1853" height="1173" />
     </state>
     <state x="776" y="370" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1173@67.27.1853.1173" timestamp="1585619426499" />
-    <state width="1334" height="297" key="GridCell.Tab.0.bottom" timestamp="1585623071656">
+    <state width="1334" height="297" key="GridCell.Tab.0.bottom" timestamp="1585625125795">
       <screen x="67" y="27" width="1853" height="1173" />
     </state>
-    <state width="1334" height="297" key="GridCell.Tab.0.bottom/67.27.1853.1173@67.27.1853.1173" timestamp="1585623071656" />
-    <state width="1334" height="297" key="GridCell.Tab.0.center" timestamp="1585623071655">
+    <state width="1334" height="297" key="GridCell.Tab.0.bottom/67.27.1853.1173@67.27.1853.1173" timestamp="1585625125795" />
+    <state width="1334" height="297" key="GridCell.Tab.0.center" timestamp="1585625125794">
       <screen x="67" y="27" width="1853" height="1173" />
     </state>
-    <state width="1334" height="297" key="GridCell.Tab.0.center/67.27.1853.1173@67.27.1853.1173" timestamp="1585623071655" />
-    <state width="1334" height="297" key="GridCell.Tab.0.left" timestamp="1585623071647">
+    <state width="1334" height="297" key="GridCell.Tab.0.center/67.27.1853.1173@67.27.1853.1173" timestamp="1585625125794" />
+    <state width="1334" height="297" key="GridCell.Tab.0.left" timestamp="1585625125791">
       <screen x="67" y="27" width="1853" height="1173" />
     </state>
-    <state width="1334" height="297" key="GridCell.Tab.0.left/67.27.1853.1173@67.27.1853.1173" timestamp="1585623071647" />
-    <state width="1334" height="297" key="GridCell.Tab.0.right" timestamp="1585623071656">
+    <state width="1334" height="297" key="GridCell.Tab.0.left/67.27.1853.1173@67.27.1853.1173" timestamp="1585625125791" />
+    <state width="1334" height="297" key="GridCell.Tab.0.right" timestamp="1585625125795">
       <screen x="67" y="27" width="1853" height="1173" />
     </state>
-    <state width="1334" height="297" key="GridCell.Tab.0.right/67.27.1853.1173@67.27.1853.1173" timestamp="1585623071656" />
+    <state width="1334" height="297" key="GridCell.Tab.0.right/67.27.1853.1173@67.27.1853.1173" timestamp="1585625125795" />
     <state x="627" y="313" key="SettingsEditor" timestamp="1585617999280">
       <screen x="67" y="27" width="1853" height="1173" />
     </state>
